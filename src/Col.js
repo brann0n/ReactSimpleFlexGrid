@@ -8,7 +8,7 @@ const numberOrObject = PropTypes.oneOfType([PropTypes.number, PropTypes.object])
 
 function Col({ span, offset, className, children, prefix = 'rct-grid-col', order, ...others }) {
   let sizeClasses = {};
-  ['xs', 'sm', 'md', 'lg', 'xl', 'xxl', 'xxxl'].forEach((size) => {
+  ['xs', 'sm', 'md', 'lg', 'xl', 'xxl', 'xxxl', 'xxxxl'].forEach((size) => {
     if (others[size]) {
       let sizeParams = {};
       if (typeof others[size] === 'number') {
@@ -48,6 +48,7 @@ Col.propTypes = {
   xl: numberOrObject,
   xxl: numberOrObject,
   xxxl: numberOrObject,
+  xxxxl: numberOrObject,
   offset: stringOrNumber,
   prefix: PropTypes.string,
   order: stringOrNumber

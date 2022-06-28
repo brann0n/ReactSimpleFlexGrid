@@ -1,7 +1,7 @@
 {
-  "name": "react-simple-flex-grid",
-  "version": "1.3.21",
-  "description": "",
+  "name": "xray-flex-grid",
+  "version": "2.0.1",
+  "description": "Changed for xray.",
   "keywords": [
     "react",
     "react-grid",
@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abraztsov/ReactSimpleFlexGrid.git"
+    "url": "git+https://github.com/brann0n/ReactSimpleFlexGrid.git"
   },
   "author": "Nikita Abraztsov (https://github.com/abraztsov)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/abraztsov/ReactSimpleFlexGrid/issues"
+    "url": "https://github.com/brann0n/ReactSimpleFlexGrid/issues"
   },
-  "homepage": "https://github.com/abraztsov/ReactSimpleFlexGrid#readme",
+  "homepage": "https://github.com/brann0n/ReactSimpleFlexGrid#readme",
   "devDependencies": {
     "autoprefixer": "^6.7.7",
     "babel-cli": "^6.24.0",

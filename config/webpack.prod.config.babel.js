@@ -31,7 +31,7 @@ export default {
     path: path.join(__dirname, '../lib'),
     filename: 'index.js',
     libraryTarget: 'umd',
-    library: 'react-simple-flex-grid'
+    library: 'xray-flex-grid'
   },
   module: {
     loaders: [{
